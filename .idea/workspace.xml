@@ -30,32 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Knight.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/knight/Knight.java">
+      <file leaf-file-name="Ammunition.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ammunition/Ammunition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24242425">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="method#sum#0;class#Knight#0" expanded="false" />
-                <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-                <element signature="class#1276:1478" expanded="false" />
-                <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
-                <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
-                <element signature="method#toString#0;class#Knight#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.30499077">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -87,16 +66,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ammunition/Ammunition.java" />
-        <option value="$PROJECT_DIR$/src/knight/Human.java" />
         <option value="$PROJECT_DIR$/src/knight/Main.java" />
         <option value="$PROJECT_DIR$/src/view/Main.java" />
+        <option value="$PROJECT_DIR$/src/knight/Knight.java" />
+        <option value="$PROJECT_DIR$/src/shop/ArmorShop.java" />
+        <option value="$PROJECT_DIR$/src/ammunition/Ammunition.java" />
         <option value="$PROJECT_DIR$/src/ammunition/Armor.java" />
+        <option value="$PROJECT_DIR$/src/knight/Human.java" />
         <option value="$PROJECT_DIR$/src/ammunition/Boots.java" />
         <option value="$PROJECT_DIR$/src/ammunition/Helm.java" />
         <option value="$PROJECT_DIR$/src/ammunition/Sword.java" />
-        <option value="$PROJECT_DIR$/src/shop/ArmorShop.java" />
-        <option value="$PROJECT_DIR$/src/knight/Knight.java" />
       </list>
     </option>
   </component>
@@ -145,20 +124,15 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Knight" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -202,6 +176,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -221,11 +199,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Knight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Knight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ammunition" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +229,7 @@
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="/usr/lib/git-core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -546,12 +539,15 @@
       <workItem from="1447770915219" duration="42000" />
       <workItem from="1447770973825" duration="130000" />
       <workItem from="1447771121144" duration="65000" />
-      <workItem from="1447771338643" duration="629000" />
+      <workItem from="1447771338643" duration="1228000" />
+      <workItem from="1447772980831" duration="87000" />
+      <workItem from="1448888727630" duration="360000" />
+      <workItem from="1449481305847" duration="4869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17657000" />
+    <option name="totallyTimeSpent" value="23572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
@@ -565,12 +561,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.4939394" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.085072234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17424242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -579,9 +575,9 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -610,6 +606,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/view/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/knight/Knight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -617,12 +621,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -644,12 +646,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -671,12 +671,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -698,12 +696,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -725,12 +721,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -752,12 +746,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -779,12 +771,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -806,12 +796,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -825,12 +813,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -844,12 +830,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -863,12 +847,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -890,12 +872,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -945,12 +925,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -1007,12 +985,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
@@ -1061,55 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ammunition/Sword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ammunition/Helm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ammunition/Boots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ammunition/Armor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ammunition/Ammunition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/knight/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shop/ArmorShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/java.lang.System">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1128,30 +1055,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/Main.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55452865">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/knight/Knight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24242425">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="117" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#Knight#0;class#Knight#0" expanded="false" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
             <element signature="method#sum#0;class#Knight#0" expanded="false" />
             <element signature="method#sortAmmunitionByPrice#0;class#Knight#0" expanded="false" />
-            <element signature="class#1276:1478" expanded="false" />
             <element signature="method#sortAmmunitionByWeight#0;class#Knight#0" expanded="false" />
+            <element signature="class#2157:2363" expanded="false" />
             <element signature="method#findAmmunutionByPrice#0;class#Knight#0" expanded="false" />
             <element signature="method#toString#0;class#Knight#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/knight/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/ArmorShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4990758">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ammunition/Boots.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="54" selection-end-column="7" />
+          <folding>
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ammunition/Helm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="51" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <folding>
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1009#1010#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ammunition/Sword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1070#1071#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ammunition/Armor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ammunition/Ammunition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30499077">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

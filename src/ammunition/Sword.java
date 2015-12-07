@@ -2,10 +2,22 @@ package ammunition;
 
 public class Sword extends Ammunition {
 
+    /** Свойство - название */
     private String name;
+
+    /* Свойство - урон */
     private int damage;
+
+    /* Свойство - одноручное оружие */
     private boolean oneHanded;
 
+    /** Создает новый обьект с задаными значениями
+     * @param cost - цена
+     * @param weight - вес
+     * @param name - название
+     * @param damage - урон
+     * @param oneHanded - одноручное ли?
+     */
     public Sword(double cost, double weight,
                  String name, int damage, boolean oneHanded) {
         super(cost, weight);
@@ -38,6 +50,9 @@ public class Sword extends Ammunition {
         this.oneHanded = oneHanded;
     }
 
+    /** Метод для вывода информации о мече
+     * @return Возвращает полную информацию о мече
+     */
     @Override
     public String toString() {
         return "Sword{" +

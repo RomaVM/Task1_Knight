@@ -2,10 +2,22 @@ package ammunition;
 
 public class Armor extends Ammunition {
 
+    /**  Свойство - название брони */
     private String name;
+
+    /** Свойство - количество блокорованого урона */
     private int absorbeDamage;
+
+    /** Свойство - размер */
     private String size;
 
+    /** Создает новый обьект с задаными значениями
+     * @param cost - цена
+     * @param weight - вес
+     * @param name - имя
+     * @param absorbeDamage - блокриванный урон
+     * @param size - размер
+     */
     public Armor(double cost, double weight,
                  String name, int absorbeDamage, String size) {
         super(cost, weight);
@@ -38,6 +50,9 @@ public class Armor extends Ammunition {
         this.size = size;
     }
 
+    /** Метод для вывода информации о броне
+     * @return Возвращает полную информацию о броне
+     */
     @Override
     public String toString() {
         return "Armor{" +
